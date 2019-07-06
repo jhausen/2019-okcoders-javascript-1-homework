@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OKcoders Javascript Homework</title>
+</head>
+
+<body>
+
+  <!-- Everything between the script tags must be Javascript (html goes in a string)  -->
+  <script>
+    var name = prompt("<h1>What is your name?</h1>");
+    var quarter = prompt("Heads or Tails?")
+
+    document.write("<h1>You guessed " + quarter + "! </h1>")
+
+    if (quarter == "Heads") {
+        document.write(name + "You Lost 😭")
+    } else {
+        document.write(name + "You Won! 🥳")
+    }
+
+  </script>
+
+</body>
+
+</html>
